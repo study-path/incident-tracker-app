@@ -36,6 +36,9 @@ export default function App() {
             status={incident.status}
             room={incident.room}
             device={incident.device}
+            priority={incident.priority}
+            description={incident.description}
+            createdAt={incident.createdAt}
           />
         ))}
       </div>

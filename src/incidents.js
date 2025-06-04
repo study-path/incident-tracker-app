@@ -7,8 +7,8 @@ const incidents = [
     status: "open",
     room: "Conference Room 1",
     device: "Camera",
-    description: "The meeting room camera is not working.",
     priority: "High",
+    description: "The meeting room camera is not working.",
     createdAt: "2025-10-01T10:30:00Z",
   },
   {
@@ -48,7 +48,7 @@ const incidents = [
     room: "IT Lab",
     device: "Monitor",
     description: "Display is not working.",
-    priority: "High",
+    priority: "Normal",
     createdAt: "2025-16-11T10:30:00Z",
   },
   {
