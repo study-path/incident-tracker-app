@@ -1,0 +1,66 @@
+import IncidentCard from "./IncidentCard";
+
+const incidents = [
+  {
+    id: 1,
+    title: "Camera not connecting",
+    status: "open",
+    room: "Conference Room 1",
+    device: "Camera",
+    description: "The meeting room camera is not working.",
+    priority: "High",
+    createdAt: "2025-10-01T10:30:00Z",
+  },
+  {
+    id: 2,
+    title: "Microphone feedback",
+    status: "closed",
+    room: "Meeting Room A",
+    device: "Microphone",
+    description: "The meeting room camera is not working.",
+    priority: "High",
+    createdAt: "2025-09-01T10:30:00Z",
+  },
+  {
+    id: 3,
+    title: "No sound output",
+    status: "open",
+    room: "Main Hall",
+    device: "Speaker",
+    description: "The meeting room camera is not working.",
+    priority: "High",
+    createdAt: "2025-26-11T10:30:00Z",
+  },
+  {
+    id: 4,
+    title: "Zoom connection failure",
+    status: "open",
+    room: "Room B",
+    device: "AV Switcher",
+    description: "The meeting room camera is not working.",
+    priority: "Low",
+    createdAt: "2025-01-01T10:30:00Z",
+  },
+  {
+    id: 5,
+    title: "Display not powering on",
+    status: "closed",
+    room: "IT Lab",
+    device: "Monitor",
+    description: "Display is not working.",
+    priority: "High",
+    createdAt: "2025-16-11T10:30:00Z",
+  },
+  {
+    id: 6,
+    title: "HDMI input not working",
+    status: "open",
+    room: "Training Room",
+    device: "Switcher",
+    description: "The meeting room camera is not working.",
+    priority: "Low",
+    createdAt: "2025-08-08T10:30:00Z",
+  },
+];
+
+export default incidents;
